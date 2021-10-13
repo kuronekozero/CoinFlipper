@@ -1,6 +1,7 @@
 # Coin flipper.
 
-To flip a coin press **SPACE**.
+To flip a coin click on **LMB**.
 
-## _This project still in process and not finished yet._
+Simple Coin Flipper app that I wrote on Python with kivy library.
+
 

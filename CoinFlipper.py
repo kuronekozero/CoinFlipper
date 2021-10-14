@@ -38,12 +38,12 @@ screen.blit(textSurface, (210, 0))
 
 # Coin info
 secondText = pygame.font.SysFont('Comic Sans MS', 40)
-secondTextSurface = secondText.render('RED = head', False, (235, 235, 235))
+secondTextSurface = secondText.render('RED = head', False, (219, 0, 0))
 screen.blit(secondTextSurface, (466, 185))
 
 # Coin info 2
 thirdText = pygame.font.SysFont('Comic Sans MS', 40)
-thirdTextSurface = thirdText.render('BLUE = tail', False, (235, 235, 235))
+thirdTextSurface = thirdText.render('BLUE = tail', False, (0, 62, 232))
 screen.blit(thirdTextSurface, (466, 245))
 
 # Stats info
@@ -106,12 +106,12 @@ while carryOn:
 
             # Coin info
             secondText = pygame.font.SysFont('Comic Sans MS', 40)
-            secondTextSurface = secondText.render('RED = head', False, (235, 235, 235))
+            secondTextSurface = secondText.render('RED = head', False, (219, 0, 0))
             screen.blit(secondTextSurface, (466, 185))
 
             # Coin info 2
             thirdText = pygame.font.SysFont('Comic Sans MS', 40)
-            thirdTextSurface = thirdText.render('BLUE = tail', False, (235, 235, 235))
+            thirdTextSurface = thirdText.render('BLUE = tail', False, (0, 62, 232))
             screen.blit(thirdTextSurface, (466, 245))
 
             # Stats info
